@@ -1,0 +1,8 @@
+{
+  "name": "@radzoft/core",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Glencel Alangilan",
+  "license": "MIT",
+  "type": "module"
+}
