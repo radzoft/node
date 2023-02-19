@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vite/client", "vitest","env.d.ts"],
+    "sourceMap": true,
+    
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib":["es2017","DOM"],
+    "module": "es2022",
+    
+    "composite":true
+  },
+  "files": [],
+  "include": [],
+  "exclude": ["node_modules","tmp"],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "../shared"
+    }
+  ]
+}

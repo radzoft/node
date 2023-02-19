@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+.fade-enter {
+  opacity: 0;
+  // transform:translateX(-100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  // transform:translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  // transform:translateX(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  // transform:translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}

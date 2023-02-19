@@ -1,0 +1,14 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radzoft/core": "*"
+  },
+  "devDependencies": {}
+}
