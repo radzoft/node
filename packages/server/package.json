@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "keywords": [],
+  "author": "Radzoft",
+  "license": "MIT",
+  "scripts": {
+    "start": "env $(cat .env | grep -v \"#\" | xargs) tsx watch src/main.ts",
+    "build": "rm -rf dist && tsc --build"
+  },
+  "dependencies": {
+    "@radzoft/core": "*"
+  },
+  "type": "module"
+}
